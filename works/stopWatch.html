@@ -8,8 +8,8 @@
 <body>
   <h1>ストップウォッチ</h1>
   <div id="count">秒数: 0 秒</div>
-  <button onclick="start()">スタート</button>
-  <button onclick='stop()'>ストップ</button>
+  <button onclick="setInterval('start()',1000)">スタート</button>
+  <button onclick='clearInterval(id)'>ストップ</button>
   <button onclick="reset()">リセット</button>
 </body>
 </html>
